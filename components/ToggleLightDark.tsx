@@ -7,6 +7,7 @@ export default function ToggleLightDark(): JSX.Element {
 	return (
 		<IconButton
 			icon={colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+			color={'purple.500'}
 			onClick={toggleColorMode}
 			variant='ghost'
 			aria-label={'Theme toggle switch'}
